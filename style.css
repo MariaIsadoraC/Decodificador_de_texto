@@ -1,0 +1,94 @@
+ :root{
+    --verde-escuro: #344E41;
+    --verde-claro: #A3B18A;
+    --bege: #DAD7CD;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:var(--verde-claro);
+    color:var(--verde-escuro);
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.3rem;
+}
+.principal__colunaEsquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.principal__caixaTexto{
+    margin-top: 10.5rem;
+    margin-left: 2%;
+    width: 100%;
+    height: 12.5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 2rem;
+    margin-bottom:12.5rem;
+}
+.principal__alerta{
+    margin-bottom: 0.32rem;
+    font-size: 1rem;
+    margin-left: 2%;
+}
+.principal__botao{
+    margin-top: 1rem;
+    margin-left: 2%;
+    gap: 1rem;
+   
+}
+.principal__botao button{
+    font-size: 1rem;
+    padding: 1.25rem 5.6rem;
+    margin: 5px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    border: 2px solid var(--verde-escuro);
+    text-align: center;
+    font-size: 1rem;
+}
+.principal__botao1{
+    color:var(--verde-claro);
+    background-color: var(--verde-escuro)   
+}
+.principal__botao2{
+    background-color:var(--bege);
+}
+
+.principal__saida {
+    width: 26%;
+    height: 43.75rem;
+    background-color: var(--bege);
+    border-radius: 2rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    margin: 0.9%;
+    font-size: 1.5rem;
+}
+.principal__saida image{
+    width: 30%;
+}
+.principal__saida__mensagem1{
+    font-size: 1.5rem;
+}
+.principal__saida__mensagem2{
+    font-size: 1rem;
+    text-align: center;
+}
